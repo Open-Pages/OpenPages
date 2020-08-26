@@ -34,34 +34,19 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Register
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">children</a>
-                            <a class="dropdown-item" href="#">Volunteer</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Donate</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacts</a>
+                        <a class="nav-link" href="#">Register</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          About
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Open Pages</a>
-                            <a class="dropdown-item" href="#">Partners</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Donate</a>
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Donate</a>
                     </li>
+                    
                 </ul>
 
                 <ul class="navbar-nav ml-auto">
@@ -87,7 +72,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xl-6">
-                    <!-- <img src="images/8.jpg" alt=""> -->
+                    <!--<img src="images/10(copy).jpg" alt=""> -->
                 </div>
                 <div class="col-xl-6">
                     <h1 class="display-4 op-title">Open Pages!</h1>
@@ -285,5 +270,11 @@
     </div>
     <!-- /Footer -->
 </body>
+<script type="text/javascript">
+    $(window).scroll(function(){
+        
+        $('nav').toggleClass('scrolled',$(this).scrollTop() > 50);       
+             });
 
+</script>
 </html>
