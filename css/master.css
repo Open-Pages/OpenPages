@@ -20,9 +20,6 @@ html {
 body {
     font-family: "Ubuntu";
 }
-.bg-nav{
-    background: transparent;
-}
 
 .bg-nav.scrolled{
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%) !important;
@@ -218,5 +215,8 @@ Bootstrap 4 breakpoints
     h1 {
         font-size: 3rem;
     }
+    .bg-nav{
+    background: transparent;
+}
     /*1rem = 16px*/
 }
