@@ -20,14 +20,26 @@ html {
 body {
     font-family: "Ubuntu";
 }
-.bg-nav {
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%) !important;
-    background: red;
+
+
+/* ************************** */
+
+
+/* Scroll Effects */
+
+.nav {
+    background-color: transparent;
+    padding: 25px;
 }
-.bg-nav.scrolled{
+
+nav.scrolled {
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%) !important;
-    transition: 0.9s;
+    padding: 1px;
 }
+
+
+/* ************************ */
+
 .bg-p {
     background-color: #4cd137;
 }
@@ -176,18 +188,32 @@ Bootstrap 4 breakpoints
     .op-title {
         font-family: "Srisakdi";
         font-weight: bold;
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
     .op-text {
         font-family: "Ubuntu";
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .gallery-column {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
     }
-    /*1rem = 16px*/
+    .nav {
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%) !important;
+        padding: 25px;
+    }
+    #logo {
+        font-size: 30px;
+    }
+    nav.scrolled {
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%) !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #logo.scrolled {
+        font-size: 20px;
+    }
 }
 
 
@@ -207,10 +233,6 @@ Bootstrap 4 breakpoints
     h1 {
         font-size: 2.5rem;
     }
-    /*1rem = 16px*/
-    .bg-nav {
-    background-image: transparent;
-    }
 }
 
 
@@ -220,8 +242,4 @@ Bootstrap 4 breakpoints
     h1 {
         font-size: 3rem;
     }
-    .bg-nav{
-    background: transparent;
-}
-    /*1rem = 16px*/
 }
