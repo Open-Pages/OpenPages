@@ -194,7 +194,7 @@ Bootstrap 4 breakpoints
         padding-top: 40%;
     }
     .op-title {
-        font-family: "Srisakdi";
+        /* font-family: "Srisakdi"; */
         font-weight: bold;
         font-size: 2.4rem;
     }
