@@ -210,15 +210,15 @@ Bootstrap 4 breakpoints
     }
     .nav {
         background-image: var(--primary-gradient);
-        padding: 25px;
+        padding: 0px;
     }
     #logo {
         font-size: 30px;
     }
     nav.scrolled {
         background-image: var(--primary-gradient);
-        padding-left: 10px;
-        padding-right: 10px;
+/*         padding-left: 10px;
+        padding-right: 10px; */
     }
     #logo.scrolled {
         font-size: 20px;
