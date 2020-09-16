@@ -1,7 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
-
-/* @import url(https://fonts.googleapis.com/css?family=Srisakdi:400,900); */
-
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,900);
 :root {
     --primary-gradient: linear-gradient(90deg, hsla(112, 63%, 52%, 1) 0%, hsla(112, 58%, 47%, 1) 100%);
@@ -16,6 +13,12 @@
  ::selection {
     color: white;
     background: black;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 html {
@@ -113,7 +116,7 @@ nav.scrolled {
 /* ********************* */
 
 .footer {
-    background: rgb(230, 151, 6);
+    background: #2c3e50;
 }
 
 .footer-links {
@@ -121,7 +124,7 @@ nav.scrolled {
 }
 
 .social-links {
-    color: white !important;
+    color: white;
     padding-top: 20px;
 }
 
@@ -130,18 +133,23 @@ nav.scrolled {
     padding: none;
 }
 
-h3 {
-    font-family: "Srisakdi";
-    text-indent: 5px;
+.nav-link-nav-bar {
+    color: white;
+    padding: 10px;
 }
 
-.nav-link {
-    color: white !important;
+.nav-link-nav-bar-text {
+    color: white;
     padding: 5px;
 }
 
-.nav-link:hover {
-    color: green !important;
+.nav-link-nav-bar-text:hover {
+    color: white;
+    padding: 5px;
+}
+
+.nav-link-nav-bar:hover {
+    color: green;
 }
 
 .logo {
@@ -151,14 +159,14 @@ h3 {
 
 .copyright {
     height: 50px;
-    background: rgb(214, 111, 14);
+    background: #130f40;
     text-align: center;
     padding-top: 10px;
+    color: silver;
 }
 
 .footer-newsletter {
-    color: white !important;
-    padding-top: 20px;
+    color: white;
 }
 
 .text-lg {
@@ -241,7 +249,7 @@ Bootstrap 4 breakpoints
     .op-title {
         /* font-family: "Srisakdi"; */
         font-weight: bold;
-        font-size: 2.4rem;
+        font-size: 1.4rem;
     }
     .op-text {
         font-family: "Ubuntu";
@@ -252,10 +260,15 @@ Bootstrap 4 breakpoints
         flex: 100%;
         max-width: 100%;
     }
-    .nav {
+    .nav-social {
         background-image: var(--primary-gradient);
         padding: 0px;
-        border-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .nav.footer-item {
+        background-image: white;
+        padding: 0px;
     }
     #logo {
         font-size: 30px;
