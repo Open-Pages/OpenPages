@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/master.css">
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -27,7 +28,7 @@
     <!-- Nav -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-nav nav" id="navbar">
         <div class="container">
-            <a class="navbar-brand" href="#">OPEN PAGES</a>
+            <a class="navbar-brand" href="#" style="font-family: 'Josefin Sans', sans-serif;">OPEN PAGES</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -35,35 +36,43 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link nav-link-nav-bar" href="#"> Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link nav-link-nav-bar" href="pages/about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link nav-link-nav-bar" href="pages/contacts.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Register</a>
+                        <a class="nav-link nav-link-nav-bar" href="pages/registrations.html">Register</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Donate</a>
+                        <a class="nav-link nav-link-nav-bar" href="pages/donations.html">Donate</a>
                     </li>
 
                 </ul>
 
-                <ul class="navbar-nav ml-auto">
+                <ul class="nav ml-auto nav-social">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
+                        <a class="nav-link nav-link-nav-bar" href="#"><i class="fa fa-facebook"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-telegram"></i></a>
+                        <a class="nav-link nav-link-nav-bar" href="https://t.me/openpages"><i class="fa fa-telegram"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+                        <a class="nav-link nav-link-nav-bar" href="https://www.instagram.com/iopenpages/"><i
+                                class="fa fa-instagram"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fa fa-youtube"></i></a>
+                        <a class="nav-link nav-link-nav-bar" href="https://twitter.com/@IOpenPages"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-nav-bar" href="https://www.youtube.com/channel/UC-F-D8hgdYpM9C4mR2xra3w?view_as=subscriber"><i
+                                class="fa fa-youtube"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-nav-bar" href="https://www.tiktok.com/@weopenpages"><i class="fa fa-tiktok"></i></a>
                     </li>
                 </ul>
             </div>
@@ -78,7 +87,9 @@
                 <div class="col-xl-6">
                 </div>
                 <div class="col-xl-6">
-                    <h1 class="display-4 op-title">Open Pages!</h1>
+                    <h1 class="display-4 op-title" style="font-family: 'Josefin Sans', sans-serif;">WE
+                        <c style="color: #c0392b;">OPEN PAGES</c>
+                    </h1>
                     <p class="lead op-text">Open Pages is children's library based in Addis Ababa, Ethiopia. The library is available for a child between 7 - 12 years old. Open Pages is children's library based in Addis Ababa, Ethiopia. The library is available for a child between
                         7 - 12 years old.</p>
 
@@ -105,37 +116,61 @@
             <div class="card">
                 <img src="images/3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Open Pages - Top three Finalist</h5>
+                    <h5 class="card-title" style="color: hsla(112, 58%, 47%, 1);">Open Pages - Top three Finalist</h5>
                     <p class="card-text">Open Pages becomes Top 3 finalist for Yale Young African Scholars 2019 social impact project.</p>
                 </div>
                 <div class="card-footer">
-                    <a href="#" class="btn"><small class="text-muted">Open in telegram</small></a>
+                    <div class="row justify-content-center">
+                        <div class="nav">
+                            <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
+                            <a class="nav-link" href="#"><i class="fa fa-telegram"></i></a>
+                            <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="card">
                 <img src="images/9.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Some Open Pages News</h5>
+                    <h5 class="card-title" style="color: hsla(112, 58%, 47%, 1);">Some Open Pages News</h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.This card has supporting text below as a natural lead-in to additional content.</p>
                 </div>
                 <div class="card-footer">
-                    <a href="#" class="btn"><small class="text-muted">Open in telegram</small></a>
+                    <div class="row justify-content-center">
+                        <div class="nav">
+                            <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
+                            <a class="nav-link" href="#"><i class="fa fa-telegram"></i></a>
+                            <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="card">
                 <img src="images/7.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Open Pages Team</h5>
+                    <h5 class="card-title" style="color: hsla(112, 58%, 47%, 1);">Open Pages Team</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
                     </p>
                 </div>
                 <div class="card-footer">
-                    <a href="#" class="btn"><small class="text-muted">Open in telegram</small></a>
+                    <div class="row justify-content-center">
+                        <div class="nav">
+                            <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
+                            <a class="nav-link" href="#"><i class="fa fa-telegram"></i></a>
+                            <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
+<div class="row" style="padding-top: 20px;">
+    <div class="col-12 bg-primary video" >
+        <div class="embed-responsive embed-responsive-16by9 ">
+            <iframe class="embed-responsive-item" src="videos/video_2020-09-16_10-18-43.mp4" allowfullscreen></iframe>
+          </div>
+    </div>
+</div>
     <!-- /Cards -->
     <div style="margin-top:80px"></div>
     <!-- Team Section -->
@@ -285,86 +320,46 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-3 col-xs-12">
-                   <img src="images/op.png" class="logo" alt="">
-                   <div class="container-fluid">
-                  
-                    <p class="footer-text">Open Pages is children's library based in Addis Ababa, Ethiopia. The library is available for a child between 7 - 12 years old.</p>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xs-12 text-center">
+                    <img src="images/op.png" class="logo" alt="">
+                    <div class="container-fluid">
+
+                        <p class="footer-text">Open Pages is children's library based in Addis Ababa, Ethiopia. The library is available for a child between 7 - 12 years old.</p>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3 col-xs-12">
-                    
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xs-12 text-center">
                     <div class="footer-links">
-                       
                         <h3 class="footer-text">Quick Links</h3>
-                        
-                            <a class="nav-link" href="#">Home</a>
-                     
-                        
-                            <a class="nav-link" href="#">About</a>
-                      
-                        
-                            <a class="nav-link" href="#">Contact</a>
-                        
-                            <a class="nav-link" href="#">Donate</a>
-                        
-                            <a class="nav-link" href="#">Register</a>
-                    
-                    
-                    
-                   </div>
+                        <a class="nav-link nav-link-nav-bar-text" href="#">About</a>
+                        <a class="nav-link nav-link-nav-bar-text" href="#">Contact</a>
+                        <a class="nav-link nav-link-nav-bar-text" href="#">Donate</a>
+                        <a class="nav-link nav-link-nav-bar-text" href="#">Register</a>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-md-3 col-xs-12">
-    
-                    <div class="social-links">
-                        <h3>Socials</h3>
-                        <div class="nav ">
-                            <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
-                      
-                       
-                            <a class="nav-link" href="#"><i class="fa fa-telegram"></i></a>
-                       
-                        
-                            <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
-                       
-                       
-                            <a class="nav-link" href="#"><i class="fa fa-youtube"></i></a>
-                        </div>
-                        <br>
-                        <h3>Contact us</h3>
-                        <a class="nav-link" href="#"><i class="fa fa-phone"> 093-465-7891 </i></a> 
-                        <a class="nav-link" href="#"><i class="fa fa-envelope"> 0penPages@gmail.com </i></a>
-                        <a class="nav-link" href="#"><i class="fa fa-map-marker"> Addis Ababa, Ethiopia </i></a>
-    
-    
-                   </div>
-                </div>
-                <div class="col-sm-6 col-md-3 col-xs-12 footer-newsletter">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xs-12 footer-newsletter text-center">
                     <h3>Newsletter</h3>
-                    <p>Put your email adress here so you can stay updated on what we do and all the fun stuff we have planned!</p>
-                    
-                    
+                    <p>Put your email adress here so you can stay updated on what we do and all the fun stuff we have planned!
+                    </p>
                     <form>
                         <div class="input-group mb-3">
-                          <div class="input-group-prepend">
-                            <span class="input-group-text">Submit</span>
-                          </div>
-                          <input type="email" class="form-control" placeholder="Enter your email...">
-                        </div>
-                      </form>
-    
-                </div>
-                
-            </div>
-           <br>
-        </div>
-        <div class="copyright col-12">
-            <p>Copyright©OpenPages2020</p>
-        </div>
-           
-        </footer>
 
+                            <input type="email" class="form-control" placeholder="Enter your email...">
+                            <div class="input-group-append">
+                                <span class="input-group-text">Submit</span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br>
+        </div>
+       
+        <div class="copyright col-12">
+            <p>Copyright © Open Pages 2020</p>
+        </div>
+
+    </footer>
     <!-- /Footer -->
 </body>
 
