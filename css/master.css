@@ -112,45 +112,51 @@ nav.scrolled {
 
 /* ********************* */
 
-.footer{
+.footer {
     background: rgb(230, 151, 6);
-    
 }
-.footer-links{
+
+.footer-links {
     padding-top: 20px;
 }
 
-.social-links{
+.social-links {
     color: white !important;
     padding-top: 20px;
 }
-.footer-text{
+
+.footer-text {
     color: white;
     padding: none;
-    
 }
-h3{
+
+h3 {
     font-family: "Srisakdi";
     text-indent: 5px;
 }
-.nav-link{
+
+.nav-link {
     color: white !important;
     padding: 5px;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: green !important;
 }
-.logo{
+
+.logo {
     height: 100px;
     margin-top: 20px;
 }
-.copyright{
+
+.copyright {
     height: 50px;
     background: rgb(214, 111, 14);
     text-align: center;
     padding-top: 10px;
 }
-.footer-newsletter{
+
+.footer-newsletter {
     color: white !important;
     padding-top: 20px;
 }
@@ -249,6 +255,7 @@ Bootstrap 4 breakpoints
     .nav {
         background-image: var(--primary-gradient);
         padding: 0px;
+        border-radius: 10px;
     }
     #logo {
         font-size: 30px;
