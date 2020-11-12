@@ -36,13 +36,13 @@ body {
 
 /* Scroll Effects */
 
-.nav {
-    background-color: transparent;
+.nav_ {
+    background-color: #4cd137;
     padding: 15px;
 }
 
-nav.scrolled {
-    background: rgb(94, 191, 223);
+.nav_.scrolled {
+    background-color: #4cd137;
     padding: 1px;
 }
 
@@ -54,7 +54,7 @@ nav.scrolled {
 }
 
 .bg-s {
-    background-color: #00a8ff;
+    background-color: #4cd137;
 }
 
 .bg-t {}
@@ -78,9 +78,11 @@ nav.scrolled {
     border-bottom-right-radius: 10px;
     transition: 0.2s;
 }
-.video{ 
-    padding: 50px; 
+
+.video {
+    padding: 50px;
 }
+
 .hp-container {
     height: 100vh;
 }
@@ -153,6 +155,7 @@ nav.scrolled {
 .nav-link-nav-bar:hover {
     color: green;
 }
+
 .logo {
     height: 100px;
     margin-top: 20px;
@@ -301,7 +304,6 @@ Bootstrap 4 breakpoints
     h1 {
         font-size: 2.5rem;
     }
-    
 }
 
 
